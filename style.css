@@ -147,37 +147,66 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+  .logo {
+    font-size: 15px;
+  }
+
   .sec {
     padding-top: 60px;
-    height: 100vh;
+    height: 100%;
   }
 
   .hero p {
     font-size: 15px;
+    line-height: 25px;
   }
 
   .hero h1 {
     font-size: 30px;
-    width: 300px;
+    width: 250px;
     line-height: 40px;
   }
 
   .hero .hero-text {
-    width: 320px;
+    width: 220px;
+    font-size: 15px;
   }
 
   .hero-button-flex {
-    padding: 10px;
     flex-direction: column;
     gap: 10px;
   }
 
   .get button,
   .view button{
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-size: 15px;
   }
 }
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .sec {
+    height: 90vh;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .hero .hero-text {
+    font-size: 16px;
+  }
+
+  .get button,
+  .view button {
+    font-size: 18px;
+  }
+}
+
 
 @media (max-width: 900px) {
  .hamburger {
