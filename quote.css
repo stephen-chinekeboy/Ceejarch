@@ -187,4 +187,39 @@
   .fast-text p {
     width: 150px;
   }
+
+  .form {
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .quote {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote-svg {
+    gap: 40px;
+  }
+
+  .form {
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .quote {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fast-svg,
+  .engineer-svg,
+  .pricing-svg,
+  .quality-svg {
+    gap: 5px;
+  }
 }
