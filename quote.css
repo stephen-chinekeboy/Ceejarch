@@ -120,6 +120,7 @@
   background: #0f172a;
   border: none;
   color: #fff;
+  font-family: 'Montserrat' , sans-serif;
   border-radius: 10px;
 }
 .input .input::placeholder {
@@ -148,6 +149,7 @@
   border: none;
   border-radius: 10px;
   font-size: 20px;
+  font-family: 'Oswald' , sans-serif;
 }
 
 @media (max-width: 480px) {

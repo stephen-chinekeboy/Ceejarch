@@ -145,6 +145,54 @@ a:hover {
   border-radius: 10px;
   border: none;
 }
+/* status section */
+.status {
+  background-color: #0f172a;
+  padding: 4% 40px;
+}
+
+.status-svg {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.building-svg,
+.years-svg,
+.client-svg,
+.workers-svg {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #1e293b;
+  padding: 35px 20px;
+  border-radius: 10px;
+}
+
+.building-text h2,
+.client-text h2,
+.workers-text h2,
+.years-text h2{
+  font-family: 'Oswald', sans-serif;
+  color: gold;
+  font-size: 30px;
+}
+
+.building-text ,
+.client-text p,
+.workers-text p,
+.years-text p {
+  font-size: 16px;
+  font-family: 'Montserrat' , sans-serif;
+  text-transform: capitalize;
+  color: #ddd;
+}
+
+.status-svg svg {
+  width: 60px;
+  height: 60px;
+  fill: gold;
+}
 
 @media (max-width: 480px) {
   .logo {
