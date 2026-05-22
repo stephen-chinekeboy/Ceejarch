@@ -152,7 +152,8 @@ a:hover {
 }
 
 .status-svg {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
   gap: 30px;
   justify-content: center;
 }
@@ -229,6 +230,10 @@ a:hover {
   .view button{
     padding: 10px 20px;
     font-size: 15px;
+  }
+
+  .status-svg {
+   
   }
 }
 
