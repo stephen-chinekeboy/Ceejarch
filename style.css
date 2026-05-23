@@ -195,6 +195,70 @@ a:hover {
   fill: gold;
 }
 
+/* about section */
+.about {
+  background-color: #fff;
+  padding: 5% 40px;
+}
+
+.about-flex {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-img,
+.about-us {
+  flex: 1;
+}
+
+.about-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about-us h2 {
+  text-transform: capitalize;
+  font-family: 'Oswald' , sans-serif;
+  color: #0f172a;
+  font-size: 35px;
+}
+
+.about-us h2 span {
+  color: gold;
+}
+
+.about-line {
+  background-color: gold;
+  width: 10%;
+  height: 2px;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.about-text {
+  padding-top: 20px;
+  line-height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #0f172a;
+}
+
+.about-button {
+  margin-top: 40px;
+}
+
+.about-button button {
+  padding: 25px 50px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #0f172a;
+  border: none;
+  
+}
+
 @media (max-width: 480px) {
   .logo {
     font-size: 15px;
@@ -232,8 +296,12 @@ a:hover {
     font-size: 15px;
   }
 
-  .status-svg {
-   
+  .about-flex {
+    flex-direction: column-reverse;
+  }
+
+  .about-line {
+    width: 25%;
   }
 }
 
@@ -257,6 +325,20 @@ a:hover {
   .get button,
   .view button {
     font-size: 18px;
+  }
+
+  .about-flex {
+    flex-direction: column-reverse;
+  }
+
+  .about-line {
+    width: 15%;
+  }
+}
+
+@media(min-width: 769px) and (max-width: 1024px) {
+  .about-line {
+    width: 20%;
   }
 }
 
