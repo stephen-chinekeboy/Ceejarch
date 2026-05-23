@@ -148,7 +148,7 @@ a:hover {
 /* status section */
 .status {
   background-color: #0f172a;
-  padding: 4% 40px;
+  padding: 8% 40px;
 }
 
 .status-svg {
@@ -216,7 +216,7 @@ a:hover {
 .about-img img{
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .about-us h2 {
@@ -263,7 +263,7 @@ a:hover {
 /* services section */
 .our {
   background-color: #0f172a;
-  padding: 5% 40px;
+  padding: 8% 40px;
 }
 
 .service-head {
@@ -373,12 +373,34 @@ a:hover {
     font-size: 15px;
   }
 
+  .building-svg,
+  .years-svg,
+  .client-svg,
+  .workers-svg {
+    padding: 20px 60px;
+  }
+
+  .building-svg svg,
+  .years-svg svg,
+  .client-svg svg,
+  .workers-svg svg {
+    text-align: center;
+  }
+
   .about-flex {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .about-line {
     width: 25%;
+  }
+
+  .about-text p{
+    width: 350px;
+  }
+
+  .service-line {
+    padding: 10px 70px;
   }
 }
 
@@ -411,11 +433,19 @@ a:hover {
   .about-line {
     width: 15%;
   }
+
+  .service-line {
+    padding: 10px 100px;
+  }
 }
 
 @media(min-width: 769px) and (max-width: 1024px) {
   .about-line {
     width: 20%;
+  }
+
+   .service-line {
+    padding: 10px 200px;
   }
 }
 
