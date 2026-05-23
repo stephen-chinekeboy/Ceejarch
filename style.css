@@ -196,6 +196,7 @@ a:hover {
 }
 
 /* about section */
+
 .about {
   background-color: #fff;
   padding: 5% 40px;
@@ -258,6 +259,82 @@ a:hover {
   border: none;
   
 }
+
+/* services section */
+.our {
+  background-color: #0f172a;
+  padding: 5% 40px;
+}
+
+.service-head {
+  text-align: center;
+  font-family: 'Oswald' , sans-serif;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #fff;
+}
+
+.service-head h2 span {
+  color: gold;
+}
+
+.service-line {
+  display: flex;
+  padding: 10px 550px;
+}
+
+.service-line span {
+  width: 100%;
+  height: 2px;
+  background-color: gold;
+}
+
+.service-flex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.service-flex svg {
+  width: 90px;
+  height: 90px;
+  fill: #0f172a;
+  background-color: gold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.construct-svg,
+.design-svg,
+.renovate-svg {
+  background-color: #1e293b;
+  padding: 40px 30px;
+}
+
+.construct-text h3,
+.design-text h3,
+.renovate-text h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: 'Oswald' , sans-serif;
+  color: #fff;
+  padding-top: 10px ;
+}
+
+.construct-text p,
+.design-text p,
+.renovate-text p {
+  font-size: 15px;
+  font-family: 'Montserrat' , sans-serif;
+  color: #ddd;
+  line-height: 25px;
+  padding-top: 12px;
+}
+
+
+
 
 @media (max-width: 480px) {
   .logo {
