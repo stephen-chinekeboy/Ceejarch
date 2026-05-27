@@ -263,7 +263,7 @@ a:hover {
 /* services section */
 .our {
   background-color: #0f172a;
-  padding: 8% 40px;
+  padding: 4% 40px;
 }
 
 .service-head {
@@ -310,6 +310,7 @@ a:hover {
 .design-svg,
 .renovate-svg {
   background-color: #1e293b;
+  border-radius: 10px;
   padding: 40px 30px;
 }
 
@@ -332,6 +333,11 @@ a:hover {
   line-height: 25px;
   padding-top: 12px;
 }
+
+
+
+
+
 
 
 

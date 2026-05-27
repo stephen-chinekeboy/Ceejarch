@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  width: 100%;
+}
+
+.contact {
+  padding: 8% 40px;
+  height: 110vh;
+}
+
+.contact-flex {
+  display: flex;
+  gap: 30px;
+}
+
+.contact-text,
+.contact-form {
+  flex: 1;
+}
+
+.contact-text .us {
+  color: #ffd700;
+  font-size: 18px;
+  font-family: 'Oswald' , sans-serif;
+}
+
+.contact-text .contact-line {
+  background-color: gold;
+  width: 10%;
+  height: 2px;
+  margin: 10px 0;
+}
+
+.contact-text h1 {
+  color: #fff;
+  font-family: 'Oswald' , sans-serif;
+  font-size: 40px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.have {
+  color: #ddd;
+  font-size: 15px;
+  font-family: 'Montserrat' , sans-serif;
+  width: 450px;
+  line-height: 25px;
+}
+
+.details {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.phone-svg svg,
+.email-svg svg,
+.location-svg svg {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  fill: gold;
+}
+
+.phone-svg,
+.location-svg,
+.email-svg {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  line-height: 25px;
+}
+
+.phone-text h3,
+.location-text h3,
+.mail-text h3 {
+  color: #fff;
+  font-family: 'Oswald' , sans-serif;
+  font-size: 20px;
+}
+
+.phone-text p,
+.location-text p,
+.mail-text p {
+  color: #ddd;
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 15px;
+}
+
+/* input section */
+.contact-form {
+  background-color: #1e293b;
+  height: 90vh;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+  gap: 20px;
+  /* width: 100%; */
+  padding: 30px 20px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 30px; */
+}
+
+.input {
+  line-height: 30px;
+}
+
+.input input ,select {
+  width: 100%;
+  padding: 25px 30px;
+  background-color: #0f172a;
+  border: none;
+  border-radius: 10px;
+  color: #ddd;
+  font-size: 18px;
+  font-family: 'Montserrat' , sans-serif;
+}
+
+.input input::placeholder {
+  color: #ddd;
+}
+
+.text-area {
+  padding-top: 20px;
+  margin: 0 30px;
+}
+
+.text-area textarea{
+  width: 100%;
+  height: 30vh;
+  padding: 20px;
+}
+
+.button {
+  text-align: center;
+  margin: 0 30px;
+  padding-top: 20px;
+}
+
+.button button {
+  width: 100%;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Oswald' , sans-serif;
+  transition: 0.5s;
+}
+
+.button button:hover {
+  color: gold;
+  background-color: #0f172a;
+  transition: 0.5s;
+}
+
+@media (max-width: 480px) {
+  .contact-flex {
+    flex-direction: column;
+    padding: 8px 10px;
+  }
+
+  .us {
+    font-size: 15px;
+  }
+
+  .contact-text h1 {
+    font-size: 25px;
+  }
+
+  .have {
+    width: 250px;
+  }
+
+  .input input , select{
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+ 
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact {
+    height: 190vh;
+  }
+  .contact-flex {
+    flex-direction: column;
+  }
+
+  .button {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact-form {
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .input input  {
+    font-size: 18px;
+  }
+
+  .button {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1288px) {
+  .contact-form {
+    height: 100vh;
+  }
+}
