@@ -152,6 +152,63 @@
   font-family: 'Oswald' , sans-serif;
 }
 
+.help {
+  background-color: #0f172a;
+  padding: 4% 40px;
+}
+
+.divider {
+  width: 2px;
+  height: 120px;
+  background: #333;
+  margin: 0 10px;
+}
+
+.help-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.work-svg,
+.location-svg,
+.need-svg,
+.mail-svg {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.work-text h3,
+.location-text h3,
+.mail-text h3,
+.need-text h3 {
+  color: #fff;
+  font-family: 'Oswald' , sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.location-text p,
+.work-text p,
+.mail-text p,
+.need-text p {
+  font-size: 15px;
+  color: #ddd;
+  font-family: 'Montserrat' , sans-serif;
+}
+
+.location-text p {
+  width: 250px;
+  line-height: 25px;
+}
+
+.help-flex svg {
+  width: 50px;
+  height: 50px;
+  fill: gold;
+}
+
+
 @media (max-width: 480px) {
   .quote {
     display: flex;
@@ -193,6 +250,20 @@
   .form {
     margin-top: 20px;
     border-radius: 10px;
+  }
+
+  .help-flex {
+    flex-direction: column;
+  }
+
+  .help-flex .divider {
+    display: flex;
+    width: 200px;
+    height: 2px;
+  }
+
+  .location-svg {
+    gap: 5px;
   }
 }
 

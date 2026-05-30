@@ -6,8 +6,11 @@
 
 header {
   background-color: black;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  /* padding: 20px; */
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .logo h1{
@@ -22,11 +25,7 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
-
-  position: fixed;
-  z-index: 1000;
-  right: 0;
-  left: 0;
+  padding: 20px;
 }
 
 ul {
@@ -68,17 +67,16 @@ a:hover {
 
 /* hero section */
 .sec {
-  /* background-image: url('/assets/peter-lomas-construction-2530759_1280.jpg'); */
   background-image: url('/assets/nikguy-construction-site-2733678_1280\ \(1\).jpg');
   background-position: right;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
   text-align: start;
-  position: relative;
+  padding-top: 70px;
 }
 
 .hero {

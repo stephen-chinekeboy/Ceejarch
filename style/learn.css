@@ -291,6 +291,28 @@ nav ul li a{
   .sec {
     height: 120vh;
   }
+
+  
+  .build-flex {
+    flex-direction: column;
+  }
+
+  .build-text {
+    text-align: center;
+  }
+
+  .build-text h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .build-text p {
+    width: 500px;
+  }
+
+  .button {
+    padding-top: 20px;
+  }
 }
 
 @media (max-width: 900px) {
